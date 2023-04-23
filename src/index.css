@@ -5,9 +5,146 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #1C1D1E;
+  color: white;
+}
+
+button {
+  cursor: pointer;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.authorization {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 104px 16px 1px 16px;
+}
+
+.authorization__signup-btn {
+  background-color: inherit;
+  color: white;
+  border: #1C1D1E;
+  padding: 0;
+  margin-right: 16px;
+}
+
+.authorization__signin-btn {
+  width: 72px;
+  height: 32px;
+  background-color: #EF602A;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+}
+
+.header-banner {
+  width: 100%;
+  object-fit: cover;
+}
+
+.suggestions-container {
+  width: 91.47%;
+  margin: 0 auto;
+}
+
+.slots-suggestion {
+  font-size: 14px;
+  margin: 16px 0 16px 0px;
+  height: 24px;
+  vertical-align: middle;
+  line-height: 24px;
+}
+
+.slots-suggestion__span {
+  text-align: center;
+  display: inline-block;
+  width: 75px;
+  margin-right: 8px;
+  height: 24px;
+  font-size: 12px;
+  background-color: #25292B;
+  border-radius: 15px;
+}
+
+.travel-suggestion {
+  margin: 0 0 14px 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.festival-suggestion {
+  margin: 0 0 30px 0px;
+  font-size: 14px;
+}
+
+.offers {
+  margin: 0 auto;
+  height: 77px;
+  display: flex;
+  align-items: center;
+  background-color: #2C3234;
+  border-radius: 8px;
+  width: 91.47%;
+}
+
+.offers__btn {
+  background-color: #2C3234;
+  border: 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 29.74%;
+}
+
+.offers__btn span {
+  font-size: 10px;
+}
+
+.offers__btn p {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 9px 0 0 0;
+}
+
+.offers__btn--active {
+  height: 90px;
+  width: 40.525%;
+  border-radius: 8px;
+  background-color: #EF5A21;
+}
+
+.offers__btn--active span {
+  font-size: 11px;
+}
+
+.offers__btn--active p {
+  font-size: 14px;
+}
+
+.fast-play {
+  width: 100%;
+  height: 56px;
+  background-color: #171718;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid #F05A22;
+  position: fixed;
+  bottom: 0px;
+}
+
+.fast-play button {
+  width: 134px;
+  height: 32px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #F05A22;
+  color: white;
 }
