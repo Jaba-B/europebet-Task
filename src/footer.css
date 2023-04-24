@@ -19,7 +19,7 @@ code {
 }
 
 footer {
-    padding: 55px 0 0 16px;
+    padding: 55px 0 220px 16px;
     margin: 0 auto
 }
 
@@ -51,4 +51,40 @@ footer {
 
 .footer__carousel-header {
     margin: 40px 0 24px 0;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item__text-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 155px;
+    height: 113px;
+    margin-bottom: 10px;
+}
+
+.carousel-item__text-header {
+    margin: 45px 0 8px 14px;
+    font-size: 12px;
+}
+
+.carousel-item__text-description {
+    width: 120px;
+    margin-left: 14px;
+    font-size: 11px;
+}
+
+.slick-slide {
+    width: 172px !important;
+}
+
+.slick-arrow::before {
+    display: none;
+}
+
+.slick-prev {
+    left: 50px !important;
 }

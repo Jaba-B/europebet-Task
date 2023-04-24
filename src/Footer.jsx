@@ -1,3 +1,4 @@
+import Carousel from "./Carousel"
 import './footer.css'
 import downArrow from './assets/downArrow.png'
 
@@ -18,6 +19,9 @@ function Footer() {
             <img src={downArrow} alt='down arrow' width={15} height={9} />
         </div>
         <p className='footer__carousel-header'>მსგავსი აქციები</p>
+        <div>
+          <Carousel />
+        </div>
     </footer>
   );
 }
