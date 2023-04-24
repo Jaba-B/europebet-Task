@@ -1,10 +1,10 @@
 import Slider from "react-slick";
 
-import carouselItem1 from './assets/carouselItem1.png'
-import carouselItem2 from './assets/carouselItem2.png'
-import carouselItem3 from './assets/carouselItem3.png'
+import carouselItem1 from '../assets/carouselItem1.png'
+import carouselItem2 from '../assets/carouselItem2.png'
+import carouselItem3 from '../assets/carouselItem3.png'
 
-import './footer.css'
+import '../footer.css'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -38,7 +38,6 @@ function Carousel() {
                             <p className="carousel-item__text-description">{item.description}</p>
                         </div>
                     </div>
-                    // <img className="carousel-item" id={item.id} src={item.src} alt="carousel items" width={155} height={180} />
                 )
             })}
         </Slider>

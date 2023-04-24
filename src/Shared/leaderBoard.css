@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #1C1D1E;
+    color: white;
+}
+
+p {
+    margin: 0;
+}
+  
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+}
+
+.leaderboard-container {
+    background-color: inherit;
+    width: 91.25%;
+    margin: 0 auto;
+}
+
+.leaderboard__header {
+    height: 20px;
+    margin: 0 auto 19px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.leaderboard__header p {
+    font-size: 13px;
+    margin-right: 8.5px;
+}
+
+.criterias {
+    display: flex;
+    margin: 0 39px 17px 0;
+    justify-content: space-between;
+}
+
+.criterias span {
+    color: #7D7D7D;
+    font-size: 12px;
+}
+
+.criterias__voucher {
+    display: flex;
+    align-items: center;
+}
+
+.criterias__voucher img {
+    margin-right: 4.4px;
+}
+
+.leaderboard {
+    height: 325px;
+    overflow-y: scroll;
+    margin-bottom: 20px;
+}
+
+.leaderboard::-webkit-scrollbar {
+    width: 2px;
+}
+
+.leaderboard::-webkit-scrollbar-track {
+    background: #2C3234;
+}
+
+.leaderboard::-webkit-scrollbar-thumb {
+    background-color: #F05A22;
+    opacity: 50%;
+    border-radius: 2px;
+}
+
+.leaderboard-item {
+    width: 97%;
+    height: 45px;
+    background-color: #1E2122;
+    border: #2C3234 solid 2px;
+    border-radius: 76px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.leaderboard-item span {
+    font-size: 10px;
+}
+
+.leaderboard-item__place {
+    width: 22px;
+    height: 22px;
+    border: 50%;
+    background-color: #2C3234;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 13px;
+    border-radius: 50%;
+}
+
+.leaderboard-item__category {
+    margin-right: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+.gift-container {
+    width: 97%;
+    min-height: 63px;
+    background-color: #2C3234;
+    border-radius: 14px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.gift-decoration {
+    height: 28px;
+    width: 8px;
+    background-color: #EF5A21;
+    border-radius: 4px;
+    position: absolute;
+    left: -4px;
+    top: calc((100% - 28px) / 2);
+}
+
+.gift-icon__container {
+    width: 37px;
+    height: 35px;
+    background-color: #545758;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 8px 0 16px;
+}
+
+.gift-text {
+    margin-right: 8px;
+    font-size: 13px;
+    padding: 3px 0 3px 0;
+}
+

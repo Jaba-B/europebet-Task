@@ -1,4 +1,4 @@
-import Carousel from "./Carousel"
+import Carousel from "./Shared/Carousel"
 import './footer.css'
 import downArrow from './assets/downArrow.png'
 
