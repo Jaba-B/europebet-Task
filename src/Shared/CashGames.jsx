@@ -1,5 +1,5 @@
-import "./cashGames.css"
-import LeaderBoard from "./LeaderBoard";
+import "../styles/cashGames.css"
+import LeaderBoard from "./cashGames/LeaderBoard";
 
 function CashGames() {
     return (
@@ -22,7 +22,7 @@ function CashGames() {
             <div className="orange-decoration"></div>
             <p>დამატებით შედგება, ქეშგეიმის, ტურნირების და სპინ პოკერის 12 Side ლიდერბორდი</p>
             <span>* Side ლიდერბორდების შესახებ დეტალური ინფორმაცია იხილეთ პოკერის ლობიში.</span>
-          </div>
+        </div>
       </div>
     );
 }

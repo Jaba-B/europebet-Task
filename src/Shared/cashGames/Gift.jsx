@@ -1,4 +1,4 @@
-import "./leaderBoard.css"
+import "../../styles/leaderBoard.css"
 
 function Gift({src, text}) {
     return (

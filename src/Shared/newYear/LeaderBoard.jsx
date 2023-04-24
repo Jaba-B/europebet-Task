@@ -1,11 +1,12 @@
-import exampleIcon from "../assets/example-icon.png"
-import logo from "../assets/logo.png" // appropriate icon was missing in assets, so i raplaced whits logo
-import LeaderBoardItem from "./LeaderBoardItem";
-import Gift from "./Gift";
-import travel from "../assets/travel-icon-sm.png"
-import ticket from "../assets/ticket-icon-sm.png"
+import exampleIcon from "../../assets/example-icon.png"
+import logo from "../../assets/logo.png" // appropriate icon was missing in assets, so i raplaced whits logo
+import LeaderBoardItem from "../cashGames/LeaderBoardItem";
+import Gift from "../cashGames/Gift";
+import travel from "../../assets/travel-icon-sm.png"
+import ticket from "../../assets/ticket-icon-sm.png"
 
-import "./leaderBoard.css"
+import "../../styles/leaderBoard.css"
+import "../../styles/newYear.css"
 
 function LeaderBoard() {
     const mock = [
@@ -34,15 +35,11 @@ function LeaderBoard() {
     const giftMock = [
         {src: `${travel}`, text: 'The Festival in Malta-ს საგზური'},
         {src: `${ticket}`, text: 'სპეციალური ტურნირის „Cashgame Sharks” ბილეთი, სადაც გათამაშდება The Festival in Malta-ს საგზური'},
-        {src: `${logo}`, text: '„ალტას“ ვაუჩერი'},
+        {src: `${logo}`, text: 'ტექნიკის მაღაზიის ვაუჩერი'},
     ]
 
     return (
       <div className="leaderboard-container">
-        <div className="leaderboard__header">
-            <p>TOP20 ლიდერბორდი ჰოლდემში</p>
-            <img src={exampleIcon} alt="example icon" width={20} height={20}/>
-        </div>
         <div className="criterias">
             <span>ადგილი</span>
             <div className="criterias__voucher">
@@ -67,6 +64,6 @@ function LeaderBoard() {
         </div>
       </div>
     );
-  }
+}
   
-  export default LeaderBoard;
+export default LeaderBoard;

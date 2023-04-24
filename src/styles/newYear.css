@@ -1,0 +1,274 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #1C1D1E;
+    color: white;
+}
+
+p {
+    margin: 0;
+}
+  
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+}
+
+.newyear-container {
+    width: 91.46%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.orange-decoration {
+    width: 125px;
+    height: 8px;
+    background-color: #EF5A21;
+    border-radius: 4px;
+    position: absolute;
+    top: -4px;
+    z-index: 1;
+    left: calc((100% - 125px)/2);
+}
+
+.tournirs-satelites {
+    width: 100%;
+    width: 91.46%;
+    height: 67px;
+    background-color: #2C3234;
+    border-radius: 16px 16px 0 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tournirs-satelites p {
+    font-weight: bold;
+}
+
+.events__p {
+    font-weight: bold;
+    text-align: center;
+    margin: 14px 0 16px 0;
+}
+
+.times {
+    width: 200px;
+    height: 32px;
+    margin: 0 auto;
+    border: 2px #F05A22 solid;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.promo-left {
+    position: absolute;
+    left: 10px;
+    margin-bottom: -4px;
+}
+
+.promo-right {
+    position: absolute;
+    right: 10px;
+    margin-bottom: -4px;
+}
+
+.times__img-container {
+    width: 37px;
+    height: 37px;
+    background-color: #F05A22;
+    border-radius: 0 50% 50% 0;
+    margin: 0 8px 0 -2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play {
+    height: 56px;
+    border-top: 3px #F05A22 solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3px;
+    margin-bottom: 10px;
+}
+
+.play__btn {
+    width: 134px;
+    height: 32px;
+    background-color: #F05A22;
+    border: 0;
+    border-radius: 5px;
+}
+
+.play__btn span {
+    color: white;
+    font-size: 15px;
+}
+
+.poker-lob {
+    height: 155px;
+    background-color: #2C3234;
+    border-radius: 0 0 16px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.poker-lob p {
+    width: 325px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.poker-lob__p {
+    margin: 12px 0 10px 0;
+}
+
+.poker-lob__btn {
+    margin-top: 15px;
+    width: 147px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F05A22;
+    border: 0;
+    border-radius: 5px;
+}
+
+.poker-lob__btn span {
+    font-size: 15px;
+    color: white;
+
+}
+
+.top22 {
+    background-color: #25292B;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.top22__header {
+    height: 101px;
+    background-color: #2C3234;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.top22__header p{
+    width: 85%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.points {
+    width: 78.07%;
+    height: 38px;
+    background-color: #1E2122;
+    border: 2px solid #2C3234;
+    border-radius: 76px;
+    margin: 20px auto 22px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.points p {
+    font-size: 12px;
+    margin-left: 13px;
+}
+
+.tournir-points {
+    width: 91.52%;
+    text-align: center;
+    font-size: 13px;
+    margin: 10px auto 19px auto;
+}
+
+.daily-tournirs__header {
+    font-size: 14px;
+    margin: 24px 0 20px 0;
+}
+
+.daily-tournirs__first {
+    position: relative;
+    margin-bottom: 14px;
+}
+
+.tournament-bg {
+    width: 97.08%;
+    height: 85px;
+}
+
+.tournament-style {
+    position: absolute;
+    font-size: 14px;
+    left: 6.28%;
+    top: 15%;
+}
+
+.tournament-jackpot {
+    position: absolute;
+    left: 6.28%;
+    top: 37%;
+    font-size: 24px;
+    color: #FFBE00;
+}
+
+.tournament-buyinn {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    font-size: 12px;
+}
+
+.tournament-date {
+    position: absolute;
+    left: 48%;
+    top: 42%;
+    width: 120px;
+    height: 25px;
+    background-color: #B78648;
+    border-radius: 15px 15px 0 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.tournament-date span {
+    font-size: 14px;
+}
+
+.tournament-date__third {
+    position: absolute;
+    left: 48%;
+    top: 42%;
+    width: 120px;
+    height: 25px;
+    background-color: #D7C860;
+    border-radius: 15px 15px 0 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.tournament-date__third span {
+    font-size: 14px;
+    color: #094B3D;
+}
+
+.winners {
+    font-size: 14px;
+    margin-bottom: 24px;
+}

@@ -1,5 +1,5 @@
-import Carousel from "./Shared/Carousel"
-import './footer.css'
+import Carousel from "./Shared/footer/Carousel"
+import './styles/footer.css'
 import downArrow from './assets/downArrow.png'
 
 function Footer() {

@@ -1,13 +1,14 @@
 import Header from './Header.jsx'
 import Footer from './Footer.jsx'
-import Carousel from './Shared/Carousel.jsx'
+import Carousel from './Shared/footer/Carousel.jsx'
 import CashGames from './Shared/CashGames.jsx'
-import LeaderBoard from './Shared/LeaderBoard.jsx'
+import NewYear from './Shared/NewYear.jsx'
+import LeaderBoard from './Shared/cashGames/LeaderBoard.jsx'
 
 function App() {
   return (
     <div className="App">
-      <CashGames />
+      <NewYear />
     </div>
   );
 }

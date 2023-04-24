@@ -1,10 +1,10 @@
 import Slider from "react-slick";
 
-import carouselItem1 from '../assets/carouselItem1.png'
-import carouselItem2 from '../assets/carouselItem2.png'
-import carouselItem3 from '../assets/carouselItem3.png'
+import carouselItem1 from '../../assets/carouselItem1.png'
+import carouselItem2 from '../../assets/carouselItem2.png'
+import carouselItem3 from '../../assets/carouselItem3.png'
 
-import '../footer.css'
+import '../../styles/footer.css'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
