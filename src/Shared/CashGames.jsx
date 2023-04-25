@@ -14,8 +14,10 @@ function CashGames() {
           </div>
           <div className="leader-board__second">
             <LeaderBoard  />
-            <p className="leader-board__paragraph">* ლიდერბორდის შედეგები განახლდება</p>
-            <p className="leader-board__decorated-span">პოკერის ლობიში</p>
+            <div className="leader-board__texts">
+              <p className="leader-board__paragraph">* ლიდერბორდის შედეგები განახლდება</p>
+              <p className="leader-board__decorated-span">პოკერის ლობიში</p>
+            </div>
           </div>
         </div>
         <div className="side-leaderboard">

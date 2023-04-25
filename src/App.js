@@ -10,7 +10,7 @@ import MysticalKey from './Shared/finalStage/MysticalKey.jsx'
 function App() {
   return (
     <div className="App">
-      <Footer />
+      <CashGames />
     </div>
   );
 }

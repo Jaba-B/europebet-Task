@@ -148,3 +148,77 @@ code {
     padding: 3px 0 3px 0;
 }
 
+@media only screen and (min-width: 940px) {
+    .leaderboard__header p {
+        font-size: 16px;
+    }
+
+    .leaderboard__header > img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .criterias span {
+        font-size: 13px;
+    }
+
+    .leaderboard-item {
+        height: 56px;
+    }
+    
+    .leaderboard-item__place {
+        width: 28px;
+        height: 28px;
+    }
+
+    .leaderboard-item span {
+        font-size: 13px;
+    }
+
+    .gift-container {
+        min-height: 72px;
+        background-color: #202324;
+    }
+
+    .gift-decoration {
+        height: 47px;
+        top: calc((100% - 47px) / 2);
+    }
+
+    .gift-icon__container {
+        background-color: inherit;
+        margin: 0 30px 0 32px;
+    }
+
+    .gift-text {
+        width: 64%;
+        font-size: 15px;
+    }
+
+    .leader-board__paragraph {
+        font-size: 14px;
+        margin-top: 0;
+        margin-right: 5px;
+    }
+
+    .leader-board__decorated-span {
+        font-size: 14px;
+    }
+
+    .leader-board__texts {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 16px;
+    }
+
+    .side-leaderboard p {
+        font-size: 18px;
+        width: 65%;
+    }
+
+    .side-leaderboard span {
+        font-size: 15px;
+        width: 65%;
+    }
+}
