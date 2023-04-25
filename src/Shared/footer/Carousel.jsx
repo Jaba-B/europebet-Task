@@ -22,13 +22,24 @@ function Carousel() {
         dots: false,
         infinite: false,
         speed: 500,
-        slidesToShow: 2,
-        slidesToScroll: 1
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [{
+            breakpoint: 940,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                initialSlide: 0,
+                infinite: false,
+                edgeFriction: 0
+            }
+        }
+        ]
     };
 
     return (
       <div className="App">
-        <Slider {...settings} >
+        <Slider {...settings} edgeFriction={0}>
             {mock.map((item) => {
                 return (
                     <div className="carousel-item" id={item.id}>

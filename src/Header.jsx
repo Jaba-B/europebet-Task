@@ -19,6 +19,7 @@ function Header() {
         <div className='suggestions-container'>
             <p className='slots-suggestion'><span className='slots-suggestion__span'>სლოტები</span>10 სექტემბერი - 7 ნოემბერი</p>
             <p className='travel-suggestion'>მოიპოვე 10 საგზურიდან ერთ-ერთი</p>
+            <p className='travel-suggestion__desktop'>მოიპოვე მრავალფეროვანი პრიზები და 10 საგზურიდან ერთ-ერთი</p>
             <p className='festival-suggestion'>მოხვდი პოკერის ფესტივალზე მალტაში</p>
         </div>
         <div className='offers'>
@@ -42,7 +43,7 @@ function Header() {
             </button>
         </div>
         <div className='fast-play'>
-            <button>ითამაშე</button>
+            <button><p>ითამაშე</p></button>
         </div>
       </div>
     );

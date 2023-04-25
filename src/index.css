@@ -50,6 +50,7 @@ code {
 .suggestions-container {
   width: 91.47%;
   margin: 0 auto;
+  padding: 0 auto;
 }
 
 .slots-suggestion {
@@ -75,6 +76,13 @@ code {
   margin: 0 0 14px 0;
   font-size: 16px;
   font-weight: 500;
+}
+
+.travel-suggestion__desktop {
+  margin: 24px 0 14px 0;
+  font-size: 20px;
+  font-weight: 500;
+  display: none;
 }
 
 .festival-suggestion {
@@ -147,4 +155,56 @@ code {
   border-radius: 5px;
   background-color: #F05A22;
   color: white;
+}
+
+@media only screen and (min-width: 500px) {
+  .suggestions-container {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 940px) {
+  .authorization {
+    display: none;
+  }
+
+  .suggestions-container {
+    text-align: start;
+  }
+
+  .travel-suggestion__desktop {
+    display: block;
+  }
+
+  .festival-suggestion {
+    font-size: 16px;
+  }
+
+  .slots-suggestion {
+    display: none;
+  }
+
+  .travel-suggestion {
+    display: none;
+  }
+
+  .header-banner {
+    border-radius: 20px 20px 0 0;
+  }
+
+  .offers__btn--active span {
+    font-size: 14px;
+  }
+
+  .offers__btn p {
+    font-size: 14px;
+  }
+
+  .offers__btn--active p {
+    font-size: 18px;
+  }
+
+  .fast-play p{
+    font-size: 15px;
+  }
 }
