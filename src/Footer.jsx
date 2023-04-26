@@ -19,7 +19,7 @@ function Footer() {
             <img src={downArrow} alt='down arrow' width={15} height={9} />
         </div>
         <p className='footer__carousel-header'>მსგავსი აქციები</p>
-        <div>
+        <div className="carousel-container">
           <Carousel />
         </div>
     </footer>

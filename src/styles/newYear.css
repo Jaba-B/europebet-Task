@@ -44,6 +44,7 @@ code {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .tournirs-satelites p {
@@ -279,6 +280,10 @@ code {
 .winners {
     font-size: 14px;
     margin-bottom: 24px;
+}
+
+.side-leaderboard__new-year {
+    width: 100%;
 }
 
 @media only screen and (min-width: 940px) {

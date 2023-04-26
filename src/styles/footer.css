@@ -20,11 +20,12 @@ code {
 
 footer {
     padding: 55px 0 220px 16px;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 .footer__header {
-    margin: 0 0 21px 0;
+    width: 91.46%;
+    margin: 0 auto 21px auto;
 }
 
 .footer__rules {
@@ -35,7 +36,12 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 5px;
+    margin: 0 auto 5px auto;
+}
+
+.carousel-container {
+    width: 91.46%;
+    margin: 0 auto;
 }
 
 .footer__rules p {
@@ -50,7 +56,8 @@ footer {
 }
 
 .footer__carousel-header {
-    margin: 40px 0 24px 0;
+    width: 91.46%;
+    margin: 40px auto 24px auto;
 }
 
 .carousel-item {
@@ -87,6 +94,11 @@ footer {
 
 .slick-prev {
     left: 50px !important;
+}
+
+.slick-list {
+    height: 184px;
+    overflow: hidden;
 }
 
 @media only screen and (min-width: 940px) {
@@ -132,5 +144,9 @@ footer {
     .carousel-item__text-description {
         font-size: 14px;
         width: 180px;
+    }
+
+    .slick-list {
+        height: auto;
     }
 }

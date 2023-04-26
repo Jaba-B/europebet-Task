@@ -2,6 +2,9 @@ import { useState } from 'react';
 import './index.css'
 import logo from './assets/logo.png'
 import banner from "./assets/banner.jpg"
+import CashGames from './Shared/CashGames';
+import NewYear from './Shared/NewYear';
+import FinalStage from './Shared/FinalStage';
 
 function Header() {
     const [ active, setActive ] = useState('first');
@@ -44,6 +47,11 @@ function Header() {
         </div>
         <div className='fast-play'>
             <button><p>ითამაშე</p></button>
+        </div>
+        <div className='components-render__cointainer'>
+            {active === 'first' && <CashGames />}
+            {active === 'second' && <NewYear />}
+            {active === 'third' && <FinalStage />}
         </div>
       </div>
     );

@@ -81,7 +81,7 @@ function NewYear() {
                 <div className="tournament-date__third"><span>27 დეკემბერი</span></div>
             </div>
             <p className="winners">* სამივე ტურნირის გამარჯვებულები მიიღებენ ბეჭდებს და ფინალურ ეტაპზე, The Lord of the Rings ტურნირზე, იბრძოლებენ The Festival in Malta-ს საგზურის მისაღებად.</p>
-            <div className="side-leaderboard">
+            <div className="side-leaderboard side-leaderboard__new-year">
             <div className="orange-decoration"></div>
             <p>დამატებით შედგება, ქეშგეიმის, ტურნირების და სპინ პოკერის 12 Side ლიდერბორდი</p>
             <span>* Side ლიდერბორდების შესახებ დეტალური ინფორმაცია იხილეთ პოკერის ლობიში.</span>

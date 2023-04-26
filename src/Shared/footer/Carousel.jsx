@@ -22,7 +22,7 @@ function Carousel() {
         dots: false,
         infinite: false,
         speed: 500,
-        slidesToShow: 3,
+        slidesToShow: 2,
         slidesToScroll: 1,
         responsive: [{
             breakpoint: 940,
@@ -38,7 +38,7 @@ function Carousel() {
     };
 
     return (
-      <div className="App">
+      <div className="">
         <Slider {...settings} edgeFriction={0}>
             {mock.map((item) => {
                 return (
