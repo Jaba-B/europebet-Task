@@ -1,4 +1,3 @@
-import exampleIcon from "../../assets/example-icon.png"
 import logo from "../../assets/logo.png" // appropriate icon was missing in assets, so i raplaced whits logo
 import LeaderBoardItem from "../cashGames/LeaderBoardItem";
 import Gift from "../cashGames/Gift";

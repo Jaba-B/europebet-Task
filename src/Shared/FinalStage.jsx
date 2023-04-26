@@ -29,6 +29,7 @@ function FinalStage() {
                     <div className="gift-decoration"></div>
                     <p className="festival-dates__p">15-დან 21 მაისის ჩათვლით მალტა პოკერის ფესტივალს უმასპინძლებს</p>
                 </div>
+                <div className="travel-boards">
                 <div className="travel-board__container">
                     <TravelBoard />
                 </div>
@@ -38,6 +39,7 @@ function FinalStage() {
                 <div className="travel-board__container">
                     <TravelBoardSecond />
                 </div>
+                </div>
             </div>
             <div className="tournirs">
                 <div className="tournirs-header">
@@ -45,11 +47,13 @@ function FinalStage() {
                     <p>მოიგე საგზური 30 აპრილის ტურნირებზე</p>
                 </div>
                 <div className="tournirs-list">
+                    <div className="tournirs-list__container">
                     {tournirListMock.map((item) => {
                         return (
                          <TourniItem src={item.src} header={item.header} p1={item.p1} p2={item.p2} p3={item.p3} />
                         )
                     })}
+                    </div>
                     <p className="vip-tournirs">* თუ მოთამაშე მოიგებს ბეჭედს ორჯერ ან მეტჯერ, ის The Lord of the Rings ტურნირზემოხვდება ბეჭდების შესაბამისი რაოდენობის სტეკით</p>
                     <p className="vip-tournirs">*ტურნირში მონაწილეობის მიღება შეუძლია ნებისმიერ მსურველს 165₾-იანი ბაი-ინის გადახდით.</p>
                 </div>

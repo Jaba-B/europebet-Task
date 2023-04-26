@@ -18,7 +18,8 @@ function TravelBoard() {
     return (
       <div className="">
         <div className="travel-board__header">
-            <div className="gift-decoration"></div>
+            <div className="gift-decoration gift-decoration__final-stage"></div>
+            <div className="orange-decoration__final-stage"></div>
             <p>A კატეგორიის საგზურში შედის</p>
         </div>
         <div className="travel-board">
