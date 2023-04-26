@@ -37,7 +37,6 @@ code {
 
 .tournirs-satelites {
     width: 100%;
-    width: 91.46%;
     height: 67px;
     background-color: #2C3234;
     border-radius: 16px 16px 0 0;
@@ -78,6 +77,10 @@ code {
     position: absolute;
     right: 10px;
     margin-bottom: -4px;
+}
+
+.promo-desktop {
+    display: none;
 }
 
 .times__img-container {
@@ -191,6 +194,10 @@ code {
     margin-left: 13px;
 }
 
+.leaderboard-container__desktop {
+    display: none;
+}
+
 .tournir-points {
     width: 91.52%;
     text-align: center;
@@ -278,4 +285,111 @@ code {
         width: 250px;
         left: calc((100% - 250px)/2);
     }
+    
+    .tournirs-satelites p {
+        font-size: 18px;
+    }
+
+    .poker-lob {
+        background-color: inherit;
+        margin: 0;
+        height: 130px;
+    }
+
+    .new-year__desktop {
+        border: 3px #2C3234 solid;
+        border-radius: 0 0 15px 15px;
+        margin-bottom: 24px;
+        position: relative;
+    }
+
+    .play {
+        display: none;
+    }
+
+    .poker-lob p  {
+        width: 100%;
+    }
+
+    .promo-left, .promo-right {
+        display: none;
+    }
+
+    .promo-desktop {
+        display: block;
+        position: absolute;
+    }
+
+    .promo-desktop__right {
+        bottom: 0;
+        right: 0;
+    }
+
+    .promo-desktop__left {
+        bottom: 0;
+        left: 0;
+    }
+
+    .points {
+        max-width: 300px;
+    }
+
+    .points p {
+        margin-left: 35px;
+    }
+
+    .leaderboard {
+        height: 390px;
+    }
+
+    .leaderboard-container__mobile {
+        display: none;
+    }
+
+    .leaderboard-container__desktop {
+        display: block;
+    }
+
+    .leaderboard-item__category {
+        margin: 0 10px 0 8px;
+    }
+
+    .leaderboard-item__category--desktop-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .leaderboard-item__category--desktop-container span {
+        width: auto;
+    }
+
+    .leaderboard-item__prize {
+        margin-left: 150px;
+    }
+
+    .leader-board__desktop-paragraph-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .daily-tournirs__header {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .daily-tournirs__first-two {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .daily-tournirs__first-one, .daily-tournirs__second-one {
+        width: 48%;
+    }
+    
+    .winners {
+        margin: 0 auto;
+        text-align: center;
+        width: 68%;
+    }
+
 }

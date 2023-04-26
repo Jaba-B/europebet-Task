@@ -39,7 +39,7 @@ function LeaderBoard() {
     ]
 
     return (
-      <div className="leaderboard-container">
+      <div className="leaderboard-container leaderboard-container__mobile">
         <div className="criterias">
             <span>ადგილი</span>
             <div className="criterias__voucher">
